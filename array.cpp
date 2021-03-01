@@ -52,7 +52,7 @@ int main()
          cout << "absen murid ke [" << i+1 << "] : " << absen_array_murid[i] << endl; //menampilkan array nama_array_murid 
      }
      // terus bagaimana kalo banyak datanya tidak diketahui? masak harus meriksa satu per satu?
-     //bisa gunakan nama_array.length
+     //bisa gunakan 
      int length = sizeof(nilai_array_murid) / sizeof(nilai_array_murid[0]); // ini untuk menghitung banyak ada
      for (int i = 0; i < length; ++i)
      {
